@@ -4,7 +4,12 @@ This project is the basic angular and express codes bases. You can directly down
 
 ## Development server
 
-Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically restart if you change any of the source files. And need to manually reload the page to see the changes.
+* `npm install -g nodemon`
+* `npm install -g concurrently`
+* Run `npm install` in root folder
+* Run `npm install` in server folder
+* Run `npm start` in root folder for a dev server
+* Navigate to `http://localhost:3000/` in browser and the app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
